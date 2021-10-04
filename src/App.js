@@ -7,10 +7,12 @@ import Contact from './components/Contact/Contact';
 import Home from './components/Home/Home';
 import Error404 from './components/Error404/Error404';
 import Footer from './components/Footer/Footer';
+import ServiceData from './components/ServiceData/ServiceData';
 
 function App() {
   return (
-  <div className="App">  
+  <div className="App">
+      
 
 
 <Router>
@@ -23,7 +25,7 @@ function App() {
      <Home></Home>
    </Route>
    <Route path="/services">
-     <Services></Services>
+     <ServiceData></ServiceData>
    </Route>
    <Route path="/about">
      <About></About>
