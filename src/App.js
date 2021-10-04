@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './components/Header/Header';
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom'
 import About from './components/About/About';
-import Contact from './components/Contact/Contact';
+import Blog from './components/Blog/Blog';
 import Home from './components/Home/Home';
 import Error404 from './components/Error404/Error404';
 import Footer from './components/Footer/Footer';
@@ -29,8 +29,8 @@ function App() {
    <Route path="/about">
      <About></About>
    </Route>
-   <Route path="/contact">
-      <Contact></Contact>
+   <Route path="/blog">
+      <Blog></Blog>
    </Route> 
    <Route path="*">
      <Error404></Error404>
