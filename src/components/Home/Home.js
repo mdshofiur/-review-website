@@ -34,7 +34,7 @@ const Home = () => {
     />
     <Carousel.Caption>
       <h3>We Provide Best Learning Course Services</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <p>Learn online and earn valuable credentials from top universities like Yale, and leading companies like Google and IBM.</p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
@@ -43,6 +43,7 @@ const Home = () => {
 
 <div>
 <Container className="mt-5">
+  <h2 className="mb-5">Our Most Popular Services </h2>
  <Row xs={1} md={3} className="g-4">
      {
          one.map(services => 
