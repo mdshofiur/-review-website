@@ -3,8 +3,6 @@ import {Card} from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faComments,faUsers} from '@fortawesome/free-solid-svg-icons'
 
-//
-
 const Services = (props) => {
    
     return (
