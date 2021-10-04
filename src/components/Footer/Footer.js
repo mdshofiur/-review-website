@@ -14,16 +14,15 @@ const Footer = () => {
              
               <div className="d-flex justify-content-evenly bg-info p-5 text-light">
               <div className="fs-3 fw-bold ">EducationsCenter</div>
-              <div className="mt-2">
+              <div className="pt-2">
                 <p>© 2020 All Rights Reserved. Developed By Assignment</p>
               </div>
-              <div className=" fs-3 ">
-                <div><BsFacebook /></div>
-                <div><AiFillTwitterCircle /></div>
-                <div><AiOutlineInstagram /></div>
-                <div> <AiFillGooglePlusCircle /></div>
-                <div> <BsPinterest /></div>
-               
+              <div className=" fs-3 d-flex">
+                <div className="ps-2"><BsFacebook /></div>
+                <div className="ps-2"><AiFillTwitterCircle /></div>
+                <div className="ps-2"><AiOutlineInstagram /></div>
+                <div className="ps-2"> <AiFillGooglePlusCircle /></div>
+                <div className="ps-2"> <BsPinterest /></div>
                 
               </div>
               </div>

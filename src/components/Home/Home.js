@@ -25,7 +25,7 @@ const Home = () => {
 
 <div>
 
-<Carousel className="mt-1">
+<Carousel>
   <Carousel.Item>
     <img
       className="d-block w-5"
