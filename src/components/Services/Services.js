@@ -1,4 +1,5 @@
 import React from 'react';
+//./Hotel.JSON
 
 const Services = () => {
     return (
