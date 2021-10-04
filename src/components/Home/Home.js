@@ -1,6 +1,6 @@
 import React from 'react';
 import {useState,useEffect} from 'react'
-import {Container,Row,Card,Col} from 'react-bootstrap'
+import {Container,Row,Card,Col,Carousel} from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faComments,faUsers} from '@fortawesome/free-solid-svg-icons'
 
@@ -19,13 +19,30 @@ const Home = () => {
     let one = services.slice(3, 6)
 
     return (
+
         <div>
 
 
+<div>
+
+<Carousel className="mt-1">
+  <Carousel.Item>
+    <img
+      className="d-block w-5"
+      src="https://eduma.thimpress.com/demo-2/wp-content/uploads/sites/18/2015/11/bg-home-2.jpg"
+      alt="First slide"
+    />
+    <Carousel.Caption>
+      <h3>We Provide Best Learning Course Services</h3>
+      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+</Carousel>
+</div>
 
 
+<div>
 <Container className="mt-5">
-
  <Row xs={1} md={3} className="g-4">
      {
          one.map(services => 
@@ -48,9 +65,9 @@ const Home = () => {
             )
      }
 </Row>
-
 </Container>
-        </div>
+  </div>
+  </div>
     );
 };
 

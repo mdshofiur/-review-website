@@ -5,7 +5,7 @@ import {NavLink} from 'react-router-dom'
 const Header = () => {
     return (
         <div>
-    <Navbar bg="primary" variant="dark" className="p-3">
+    <Navbar bg="info" variant="dark" className="p-3">
     <Container>
     <Navbar.Brand className="fw-bold"> <NavLink to="/home" className="text-light text-decoration-none">EducationsCenter</NavLink></Navbar.Brand>
     <Nav className="fw-bold">
